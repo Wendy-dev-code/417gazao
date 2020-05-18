@@ -1,16 +1,6 @@
 #include<string>
 #include <iostream>
 using namespace std;
-
-//本系统380题（继承与组合2）中，派生类Teacher_Cadre（教师兼干部）中有冗余数据以及二义性问题，请改造Teacher(教师)类、Cadre（干部）类、Teacher_Cadre（教师兼干部），消除二义性并去除数据冗余。
-
-//1. 改造后Teacher类对象、Cadre类对象、Teacher_Cadre类对象的数据成员跟原来一样（Teacher_Cadre类的对象中要去除冗余)
-
-//2. 可以引入一个新类。
-
-//3.Teacher_Cadre依旧要求从Teacher类和Cadre类多继承
-
-//4. Teacher_Cadre类中新增的数据成员wage使用double类型
 class People{
 public:
     People(string nam,int a,char s,string ad,string t);
